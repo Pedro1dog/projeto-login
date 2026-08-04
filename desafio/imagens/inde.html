@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
     <main>
@@ -13,17 +14,17 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="form.php" method="post">
-                    <p>
-                        <label for="inome"></label>
+                    <p id="roxo">
+                        <label for="inome"><i class="material-symbols-outlined">person</i></label>
                         <input type="text" name="nome" id="inome" required placeholder="Seu e-mail" autocomplete="username">
                     </p>
-                    <p>
-                        <label for="isenha"></label>
+                    <p id="roxo">
+                        <label for="isenha"><i class="material-symbols-outlined">key</i></label>
                         <input type="password" name="senha" id="isenha" required placeholder="Sua senha" autocomplete="current-password">
                     </p>
 
                     <input type="submit" value="Entrar" id="enter"><br>
-                    <input type="reset" value="Esqueci a senha" id="password">
+                    <input type="reset" value="Esqueci a senha" id="password"><i class="material-symbols-outlined">mail</i>
                 </form>
             </div>
             <div id="imagem"><img src="./metal.jpg"></div>
